@@ -161,12 +161,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb4a3424b20264ad495587c1b748fb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 3865930891013221517, guid: 73cec3529df8e43a194ea94cbe02f864,
+  ballPrefab: {fileID: 407497635511784695, guid: 73cec3529df8e43a194ea94cbe02f864,
     type: 3}
   boxPrefab: {fileID: 2357682592974033290, guid: c6f1830d449ad439abfa351af5bf9a6a,
     type: 3}
   dummyPrefab: {fileID: 8216048487198639347, guid: 33fba4343968f4917ab557321637d605,
     type: 3}
+  Bouncer: {fileID: 2673362645117276744, guid: 6b61e6671aa65ff4dbe82c848c6f3dcc, type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -528,8 +529,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1121.13, y: 627.6}
-  m_SizeDelta: {x: 720.4004, y: 251.74298}
+  m_AnchoredPosition: {x: -547.03, y: 143}
+  m_SizeDelta: {x: 720.4004, y: 333.4715}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831188207
 MonoBehaviour:
@@ -569,7 +570,11 @@ MonoBehaviour:
     2.) Generate box
 
 
-    [Space] Generate Dummy'
+    3.)  Generate Dummy
+
+
+    [Space]
+    Clear screen'
 --- !u!222 &1831188208
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -612,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -919.1, y: 866}
+  m_AnchoredPosition: {x: -345, y: 446}
   m_SizeDelta: {x: 1124.5433, y: 101.09927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1898486580
@@ -690,7 +695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1321.8, y: 410.8}
+  m_AnchoredPosition: {x: -741, y: 381}
   m_SizeDelta: {x: 319.2605, y: 30.2547}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091124291
